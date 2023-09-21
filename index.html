@@ -1,0 +1,44 @@
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Temperature Converter</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700,300,400' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="/image/high-temperature.png">
+    <!--LINK CSS FILE-->    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+	<body>
+    <header>
+      <h1>Temperature Converter</h1>
+    </header>
+		<div class="card">
+			<div class="temperature-converter">
+				<div>
+					<div class="container">
+						<h3 class="spacing">Celsius</h3>
+						<input id="celsius" type="number" value="0"/>
+					</div>
+					<div class="container">
+						<h3 class="spacing">Fahrenheit</h3>
+						<input id="fahrenheit" type="number" value="0"/>
+					</div>
+					<div class="container">
+						<h3 class="spacing">Kelvin</h3>
+						<input id="kelvin" type="number" value="0"/>
+					</div>
+				</div>
+				<div>
+					<button id="submit" class="spacing" type="submit" value="submit">Convert</button>
+					<button id="reset" class="spacing" type="reset" value="reset">Reset</button>
+				</div>
+			</div>
+		</div>
+    <footer>
+      Copywrite &copy; 2023 | Rakhi Desale
+    </footer>
+    <!--LINK JAVASCRIPT FILE-->
+    <script src="./script.js"></script>
+	</body>
+</html>
